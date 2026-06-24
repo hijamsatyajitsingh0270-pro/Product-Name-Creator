@@ -1,8 +1,6 @@
-adjectives = ["Smart", "Quick", "Eco", "Nova", "Bright"]
-nouns = ["Tech", "Hub", "Box", "Wave", "Labs"]
+#This is a Product Name Creator
 
-print("Generated Product Names:\n")
-
-for adjective in adjectives:
-    for noun in nouns:
-        print(adjective + noun)
+brand_name=input("Enter the Brand Name: ")
+model_name=input(" Enter the Model Name: ") 
+product_name= brand_name+" "+model_name
+print(product_name) 
